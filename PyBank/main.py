@@ -21,7 +21,7 @@ Total = '$' + str(df['Profit/Losses'].sum())
 # and the average of those changes
 Average_Change = '$' + str(round(df['Change'].mean(),2))
 
-# Calculating the greatest increase in profits (date and amount) over the entire period
+# Calculating the greatest increase / decrease in profits (date and amount) over the entire period
 # For the date I used iloc in combination with argmax & argmin to identify the index and find the date
 # To find the date of the biggest change I used the method from...
 # John Ortiz Ordoñez: Pandas - Ejercicio 142: Seleccionar el Índice de una Columna de un DataFrame con el Elemento Mayor
